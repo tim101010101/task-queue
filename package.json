@@ -1,10 +1,16 @@
 {
   "name": "task-queue",
-  "version": "0.0.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "A simple task queue, mainly used for concurrency control",
   "type": "module",
   "author": "EthanTeng",
-  "keywords": [],
+  "keywords": [
+    "js",
+    "task",
+    "queue",
+    "concurrency",
+    "promise"
+  ],
   "sideEffects": false,
   "main": "index.js",
   "exports": {
@@ -19,11 +25,8 @@
   "scripts": {
     "test": "vitest --watch=false"
   },
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "eslint": "^8.36.0",
-    "rollup": "^3.5.1",
-    "typescript": "^5.5.3",
     "vitest": "^2.0.1"
   }
 }
